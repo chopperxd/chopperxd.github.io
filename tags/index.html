@@ -164,16 +164,6 @@
 
 	<!-- Gitter -->
 	
-	<!-- Gitter -->
-<!-- Docs:https://gitter.im/?utm_source=left-menu-logo -->
-<script>
-  ((window.gitter = {}).chat = {}).options = {
-    room: 'your-community/your-room'
-  };
-</script>
-<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
-
-	
 
 	<!-- Navigation (contains search)-->
 	<!-- Navigation -->
@@ -217,13 +207,6 @@
 
           
           <li>
-            <a href="/categories/">Categories</a>
-          </li>
-          
-          
-
-          
-          <li>
             <a href="/archive/">Archives</a>
           </li>
           
@@ -232,6 +215,13 @@
           
           <li>
             <a href="/tags/">Tags</a>
+          </li>
+          
+          
+
+          
+          <li>
+            <a href="/categories/">Categories</a>
           </li>
           
           
@@ -363,7 +353,11 @@
       <!-- 标签云 -->
       <div id='tag_cloud' class="tags">
         
-        <a href="#Hexo" title="Hexo" rel="1">Hexo</a>
+        <a href="#React" title="React" rel="1">React</a>
+        
+        <a href="#Hexo" title="Hexo" rel="2">Hexo</a>
+        
+        <a href="#github" title="github" rel="1">github</a>
         
         <a href="#Hexo-Theme-LiveMyLife" title="Hexo-Theme-LiveMyLife" rel="1">Hexo-Theme-LiveMyLife</a>
         
@@ -372,9 +366,54 @@
       <!-- 标签列表 -->
       
       <div class="one-tag-list">
+        <span class="fa fa-tag listing-seperator" id="React">
+          <span class="tag-text">React</span>
+        </span>
+        
+        <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+        <div class="post-preview">
+          <a href="/2020/12/02/React学习笔记/">
+            <h2 class="post-title">
+              React学习笔记
+            </h2>
+            
+            <h3 class="post-subtitle">
+              learn the React
+            </h3>
+            
+          </a>
+          <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+        </div>
+        <hr>
+        
+      </div>
+      
+      <div class="one-tag-list">
         <span class="fa fa-tag listing-seperator" id="Hexo">
           <span class="tag-text">Hexo</span>
         </span>
+        
+        <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+        <div class="post-preview">
+          <a href="/2020/12/02/万事开头难/">
+            <h2 class="post-title">
+              万事开头难
+            </h2>
+            
+            <h3 class="post-subtitle">
+              随便写写
+            </h3>
+            
+          </a>
+          <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+        </div>
+        <hr>
         
         <!-- <li class="listing-item">
                   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
@@ -388,6 +427,32 @@
             
             <h3 class="post-subtitle">
               A succinct hexo theme...
+            </h3>
+            
+          </a>
+          <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+        </div>
+        <hr>
+        
+      </div>
+      
+      <div class="one-tag-list">
+        <span class="fa fa-tag listing-seperator" id="github">
+          <span class="tag-text">github</span>
+        </span>
+        
+        <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+        <div class="post-preview">
+          <a href="/2020/12/02/万事开头难/">
+            <h2 class="post-title">
+              万事开头难
+            </h2>
+            
+            <h3 class="post-subtitle">
+              随便写写
             </h3>
             
           </a>
@@ -780,7 +845,7 @@ https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
                 }
               });
               // select top N slices in content
-              var upperBound = parseInt('1');
+              var upperBound = parseInt('-1');
               if (upperBound >= 0) {
                 slicesOfContent = slicesOfContent.slice(0, upperBound);
               }

@@ -164,16 +164,6 @@
 
 	<!-- Gitter -->
 	
-	<!-- Gitter -->
-<!-- Docs:https://gitter.im/?utm_source=left-menu-logo -->
-<script>
-  ((window.gitter = {}).chat = {}).options = {
-    room: 'your-community/your-room'
-  };
-</script>
-<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
-
-	
 
 	<!-- Navigation (contains search)-->
 	<!-- Navigation -->
@@ -217,13 +207,6 @@
 
           
           <li>
-            <a href="/categories/">Categories</a>
-          </li>
-          
-          
-
-          
-          <li>
             <a href="/archive/">Archives</a>
           </li>
           
@@ -232,6 +215,13 @@
           
           <li>
             <a href="/tags/">Tags</a>
+          </li>
+          
+          
+
+          
+          <li>
+            <a href="/categories/">Categories</a>
           </li>
           
           
@@ -394,11 +384,26 @@
                   <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
                   </li> -->
           <li>
-            11-30
+            12-02
             <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/2020/11/30/万事开头难，第一篇文章发布啦/" style="color: #0085a1">
+            <a href="/2020/12/02/React学习笔记/" style="color: #0085a1">
               <span>
-                万事开头难，第一篇文章发布啦!
+                React学习笔记
+              </span>
+            </a>
+            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+          </li>
+          
+          <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+          <li>
+            12-02
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+            <a href="/2020/12/02/万事开头难/" style="color: #0085a1">
+              <span>
+                万事开头难
               </span>
             </a>
             <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
@@ -466,7 +471,15 @@
   <div class="tags">
     
     
-    <a href="/tags/#Hexo" title="Hexo" rel="1">Hexo</a>
+    <a href="/tags/#React" title="React" rel="1">React</a>
+    
+    
+    
+    <a href="/tags/#Hexo" title="Hexo" rel="2">Hexo</a>
+    
+    
+    
+    <a href="/tags/#github" title="github" rel="1">github</a>
     
     
     
@@ -533,8 +546,12 @@
 <div class="widget">
   <ul>
     
-    <a href="../2020/11/30/%E4%B8%87%E4%BA%8B%E5%BC%80%E5%A4%B4%E9%9A%BE%EF%BC%8C%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E5%8F%91%E5%B8%83%E5%95%A6/">
-      <li>万事开头难，第一篇文章发布啦!</li>
+    <a href="../2020/12/02/React%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
+      <li>React学习笔记</li>
+    </a>
+    
+    <a href="../2020/12/02/%E4%B8%87%E4%BA%8B%E5%BC%80%E5%A4%B4%E9%9A%BE/">
+      <li>万事开头难</li>
     </a>
     
     <a href="../2020/11/30/Hexo-Theme-LiveMyLife/">
@@ -564,7 +581,7 @@
     <!-- <h5>ARCHIVES</h5> -->
     <h5><a href="/archives/">ARCHIVES</a></h5>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="2020/11/">十一月 2020</a><span class="archive-list-count">2</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="2020/12/">十二月 2020</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="2020/11/">十一月 2020</a><span class="archive-list-count">1</span></li></ul>
     </div>
 
 
@@ -576,6 +593,14 @@
 <h5><a href="/categories/">CATEGORIES</a></h5>
 <div class="widget">
   <ul>
+    
+    <a href="/categories/#前端开发">
+      <li>前端开发</li>
+    </a>
+    
+    <a href="/categories/#随笔">
+      <li>随笔</li>
+    </a>
     
     <a href="/categories/#Hexo-Theme-LiveMyLife">
       <li>Hexo-Theme-LiveMyLife</li>
@@ -945,7 +970,7 @@ https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
                 }
               });
               // select top N slices in content
-              var upperBound = parseInt('1');
+              var upperBound = parseInt('-1');
               if (upperBound >= 0) {
                 slicesOfContent = slicesOfContent.slice(0, upperBound);
               }
