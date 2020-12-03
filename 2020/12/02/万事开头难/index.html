@@ -164,6 +164,16 @@
 
 	<!-- Gitter -->
 	
+	<!-- Gitter -->
+<!-- Docs:https://gitter.im/?utm_source=left-menu-logo -->
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'your-community/your-room'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+	
 
 	<!-- Navigation (contains search)-->
 	<!-- Navigation -->
@@ -207,14 +217,14 @@
 
           
           <li>
-            <a href="/archive/">Archives</a>
+            <a href="/categories/">Categories</a>
           </li>
           
           
 
           
           <li>
-            <a href="/categories/">Categories</a>
+            <a href="/archive/">Archives</a>
           </li>
           
           
@@ -479,11 +489,11 @@
 
 <script>
   var gitalk = new Gitalk({
-    clientID: 'c12c7801c8800f184cef',
-    clientSecret: '5515ee5c8db296f3b49979ed7ef45ab36bc3e56d',
-    repo: 'chopperxd.github.io',
-    owner: 'chopperxd',
-    admin: 'chopperxd',
+    clientID: '',
+    clientSecret: '',
+    repo: '',
+    owner: '',
+    admin: '',
     id: 'Wed Dec 02 2020 14:28:33 GMT+0800', // Ensure uniqueness and length less than 50
     distractionFreeMode: false, // Facebook-like distraction free mode
     perPage: 10 ,
@@ -986,7 +996,7 @@ https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
                 }
               });
               // select top N slices in content
-              var upperBound = parseInt('-1');
+              var upperBound = parseInt('1');
               if (upperBound >= 0) {
                 slicesOfContent = slicesOfContent.slice(0, upperBound);
               }
