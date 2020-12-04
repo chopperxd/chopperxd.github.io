@@ -71,12 +71,12 @@
 
   <!-- Pygments Highlight CSS -->
   
-<link rel="stylesheet" href="../../../../css/highlight.css">
-<link rel="stylesheet" href="../../../../css/widget.css">
-<link rel="stylesheet" href="../../../../css/rocket.css">
-<link rel="stylesheet" href="../../../../css/signature.css">
-<link rel="stylesheet" href="../../../../css/catalog.css">
-<link rel="stylesheet" href="../../../../css/livemylife.css">
+<link rel="stylesheet" href="../../css/highlight.css">
+<link rel="stylesheet" href="../../css/widget.css">
+<link rel="stylesheet" href="../../css/rocket.css">
+<link rel="stylesheet" href="../../css/signature.css">
+<link rel="stylesheet" href="../../css/catalog.css">
+<link rel="stylesheet" href="../../css/livemylife.css">
 
 
   
@@ -138,10 +138,10 @@
   <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
 
   <!-- ga & ba script hoook -->
-  <link rel="canonical" href="https://chopperxd.github.io/2020/12/02/React学习笔记/">
+  <link rel="canonical" href="https://chopperxd.github.io/tags/FeHelper/">
   <title>
     
-    React学习笔记 - Nothing Can Hold Me Back
+    Nothing Can Hold Me Back
     
   </title>
 <meta name="generator" content="Hexo 4.2.1"></head>
@@ -289,8 +289,8 @@
 
   <style type="text/css">
     header.intro-header {
-       /*post*/
-        background-image: url('/img/header_img/react_bg.jpg');
+       /*page*/
+        background-image: url('/img/header_img/archive_bg2.jpg');
       
     }
 
@@ -312,40 +312,10 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
           
-          <div class="post-heading">
-            <div class="tags">
-              
-              <a class="tag" href="/tags/#React" title="React">React</a>
-              
-            </div>
-            <h1>React学习笔记</h1>
-            <h2 class="subheading">learn the React</h2>
-            <span class="meta">
-              Posted by 九块腹肌的徐先生 on
-              2020-12-02
-            </span>
-
-
-            
-            <!-- WordCount start -->
-            <div class="blank_box"></div>
-            <span class="meta">
-              Estimated Reading Time <span class="post-count">2</span> Minutes
-            </span>
-            <div class="blank_box"></div>
-            <span class="meta">
-              Words <span class="post-count">647</span> In Total
-            </span>
-            <div class="blank_box"></div>
-            <!-- 不蒜子统计 start -->
-            <span class="meta">
-              Viewed <span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span> Times
-            </span>
-            <!-- 不蒜子统计 end -->
-            <!-- WordCount end -->
-            
-
-
+          <div class="site-heading">
+            <h1>我思故我在</h1>
+            <!--<hr class="small">-->
+            <span class="subheading">所以丹丹爱</span>
           </div>
           
         </div>
@@ -386,280 +356,323 @@
 	Friends Blog、
 	anchorjs、
 	) -->
-	<!-- Modify by Yu-Hsuan Yen -->
-<!-- Post Content -->
-<article>
-  <div class="container">
-    <div class="row">
-      <!-- Post Container -->
-      <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
+	<!-- Main Content -->
+<div class="container">
+  <div class="row">
+    
 
-        <blockquote>
-</blockquote>
-<p> 面对互联网新型技术井喷式的增长，只有不断学习才能不被这个时代遗弃，在这里记录一下学习各个开发框架的心得体会。</p>
-<h2 id="为什么是React"><a href="#为什么是React" class="headerlink" title="为什么是React"></a>为什么是React</h2><p>现在主流的前端框架有angular、 vue、React。当然很多人都主推vue，因为它的脚手架灵活，语法更容易被接受，但是很多大厂都在用React。React是构建用户界面的JavaScript库，国外的Instagram就是用它实现的，2013年React开源。</p>
-<p>很多人都说React的JSX让人受不了，这几个框架我都没有接触过。但是目前我所维护的项目代码前端都是基于React实现的，为了后期可以自行修改程序，不得不学。</p>
-<h2 id="前期环境准备"><a href="#前期环境准备" class="headerlink" title="前期环境准备"></a>前期环境准备</h2><h3 id="node安装"><a href="#node安装" class="headerlink" title="node安装"></a>node安装</h3><p>这个东西就和你玩Java一样需要先装个JDK是一样的，根据自己的电脑环境去下载合适的版本，比较稳定的版本应该是v12，本人的操作系统环境是Windows7 64位，[node下载地址 →](<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">https://nodejs.org/en/download/</a></p>
-<p>在cmd里输入下面命令验证是否安装成功 </p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure>
+    <!-- USE SIDEBAR -->
+    <!-- Post Container -->
+    <div class="
+                col-lg-8 col-lg-offset-1
+                col-md-8 col-md-offset-1
+                col-sm-12
+                col-xs-12
+                post-container
+            ">
 
-<p>在cmd里通过以下命令设置全局文件存储目录，因为我的E盘空间很大，所以这两个文件夹<code>node_global</code>和 <code>node_cache</code>没有放在node.js的安装路径下</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm config set prefix "E:\npmpackage\node_global" </span><br><span class="line">npm config set cache "E:\npmpackage\node_cache"</span><br></pre></td></tr></table></figure>
-<p><img src="node-v.png" alt="验证结果1"> </p>
-<p><img src="node-config.png" alt="验证结果2"> </p>
-<h3 id="cnpm安装"><a href="#cnpm安装" class="headerlink" title="cnpm安装"></a>cnpm安装</h3><p>使用淘宝的镜像获取前端node依赖要比npm快很多</p>
-<p>在cmd里通过以下命令安装cnpm，并制定下载镜像的源</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
+      
+<!-- Main Content -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1">
+      <!-- 归档列表 -->
 
-<h3 id="VScode编辑器安装"><a href="#VScode编辑器安装" class="headerlink" title="VScode编辑器安装"></a>VScode编辑器安装</h3><p>前端的开发使用这个编辑器较多，这个编辑器很好用可以替代Notepad++或者 UltraEdit这样的工具<a href="https://code.visualstudio.com/Download" target="_blank" rel="noopener">vscode下载 →</a></p>
-<h2 id="开始第一个React项目"><a href="#开始第一个React项目" class="headerlink" title="开始第一个React项目"></a>开始第一个React项目</h2><h3 id="通过安装脚手架创建项目"><a href="#通过安装脚手架创建项目" class="headerlink" title="通过安装脚手架创建项目"></a>通过安装脚手架创建项目</h3><p>这里可以使用create-react-app来创建一个项目 <a href="https://react.docschina.org/docs/create-a-new-react-app.html" target="_blank" rel="noopener">官方文档 →</a></p>
-<p>在本地创建一个文件夹作为你这个项目的工作空间，通过vscode 中的终端命令行进行编辑，敲入以下命令实现项目的创建</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g create-react-app #安装脚手架</span><br><span class="line">create-react-app create-react-app 01helloworld #创建第一个项目</span><br></pre></td></tr></table></figure>
+      
 
+      <!-- 归档列表 -->
 
-<p><img src="vscode01.png" alt="验证结果3"></p>
-<p><img src="vscode02.png" alt="验证结果4"></p>
-<p>经过漫长的等待可以看到创建的项目树生成</p>
-<p><img src="vscode03.png" alt="验证结果5"></p>
-<p>最后我们启动项目，开始玩转react,在终端中输入以下命令</p>
-<pre><code class="shell">yarn start</code></pre>
-<p><img src="vscode04.png" alt="验证结果6"></p>
-<p>在浏览器里就可以看到我们的页面了，react支持实时编译，即在项目不中断的情况下实时修改看到效果。</p>
-
-
-        <hr>
-        <!-- Pager -->
-        <ul class="pager">
+      
+      <div class="one-tag-list">
+        <span class="fa fa-calendar-times-o listing-seperator" id="2020">
+          <span class="tag-text">2020</span>
+        </span>
+        <ul>
           
-          <li class="previous">
-            <a href="/2020/12/03/Always-On-my-Way/" data-toggle="tooltip" data-placement="top" title="Always On my Way">&larr; Previous Post</a>
+          <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+          <li>
+            12-04
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+            <a href="/2020/12/04/FeHelper安装/" style="color: #0085a1">
+              <span>
+                FeHelper安装
+              </span>
+            </a>
+            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
           </li>
           
+          <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+          <li>
+            12-03
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+            <a href="/2020/12/03/Always-On-my-Way/" style="color: #0085a1">
+              <span>
+                Always On my Way
+              </span>
+            </a>
+            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+          </li>
           
-          <li class="next">
-            <a href="/2020/12/02/万事开头难/" data-toggle="tooltip" data-placement="top" title="万事开头难">Next Post &rarr;</a>
+          <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+          <li>
+            12-02
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+            <a href="/2020/12/02/React学习笔记/" style="color: #0085a1">
+              <span>
+                React学习笔记
+              </span>
+            </a>
+            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+          </li>
+          
+          <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+          <li>
+            12-02
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+            <a href="/2020/12/02/万事开头难/" style="color: #0085a1">
+              <span>
+                万事开头难
+              </span>
+            </a>
+            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+          </li>
+          
+          <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+          <li>
+            11-30
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+            <a href="/2020/11/30/Hexo-Theme-LiveMyLife/" style="color: #0085a1">
+              <span>
+                Hexo-Theme-LiveMyLife
+              </span>
+            </a>
+            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
           </li>
           
         </ul>
+      </div>
+      
 
-        
-        <!-- tip start -->
-        <div class="tip">
-          <p>
-            If you like this blog or find it useful for you, you are welcome to comment on it. You are also welcome to share this blog, so that more people can participate in it. If the images used in the blog infringe your copyright, please contact the author to delete them. Thank you !
-          </p>
-        </div>
-        <!-- tip end -->
-        
 
-        
-        <!-- Sharing Srtart -->
-        <!-- Social Social Share Post -->
-<!-- Docs:https://github.com/overtrue/share.js -->
+    </div>
+  </div>
+</div>
 
-<div class="social-share" data-initialized="true" data-disabled="tencent ,douban ,qzone ,linkedin ,facebook ,google ,diandian" data-wechat-qrcode-helper="" align="center">
-  <ul class="list-inline text-center social-share-ul">
-    <li class="social-share-li">
-      <a target="_blank" class="social-share-icon icon-twitter">
-        <i class="fa fa-twitter fa-1x" aria-hidden="true"></i>
-      </a>
-    </li>
-    <li class="social-share-li">
-      <a class="social-share-icon icon-wechat">
-        <i class="fa fa-weixin fa-1x" aria-hidden="true"></i>
-      </a>
-    </li>
-    <li class="social-share-li">
-      <a target="_blank" class="social-share-icon icon-weibo">
-        <i class="fa fa-weibo fa-1x" aria-hidden="true"></i>
-      </a>
-    </li>
-    <li class="social-share-li">
-      <a target="_blank" class="social-share-icon icon-qq">
-        <i class="fa fa-qq fa-1x" aria-hidden="true"></i>
-      </a>
-    </li>
-    <li class="social-share-li">
-      <a target="_blank" class="social-share-icon" href="mailto:?subject=React学习笔记&body=Hi,I found this website and thought you might like it https://chopperxd.github.io/2020/12/02/React学习笔记/">
-        <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>
-      </a>
-    </li>
+
+      <!-- 如果开启评论功能 -->
+      
+    </div>
+
+    <!-- Sidebar Container -->
+<div class="
+    col-lg-3 col-lg-offset-0
+    col-md-3 col-md-offset-0
+    col-sm-12
+    col-xs-12
+    sidebar-container
+">
+    
+        
+<!-- <h5>VISITORS</h5> -->
+<h5><a href="/">VISITORS</a></h5>
+<div class="widget">
+  <span>
+    Viewed <b><i><span id="busuanzi_value_site_pv"><i class="fa fa-spinner fa-spin"></i></span></i></b> Times
+  </span>
+  <br />
+  <span>
+    <b><i><span id="busuanzi_value_site_uv"><i class="fa fa-spinner fa-spin"></i></span></i></b> Visitors In Total
+  </span>
+</div>
+
+
+        <hr>
+    
+        <!-- Featured Tags -->
+
+<section>
+  <!-- no hr -->
+  <h5><a href="/tags/">FEATURED TAGS</a></h5>
+  <div class="tags">
+    
+    
+    <a href="/tags/#FeHelper" title="FeHelper" rel="1">FeHelper</a>
+    
+    
+    
+    <a href="/tags/#React" title="React" rel="1">React</a>
+    
+    
+    
+    <a href="/tags/#Hexo" title="Hexo" rel="2">Hexo</a>
+    
+    
+    
+    <a href="/tags/#github" title="github" rel="1">github</a>
+    
+    
+    
+    <a href="/tags/#Hexo-Theme-LiveMyLife" title="Hexo-Theme-LiveMyLife" rel="1">Hexo-Theme-LiveMyLife</a>
+    
+    
+  </div>
+</section>
+
+
+        <hr>
+    
+        <!-- Short About -->
+<section class="visible-md visible-lg">
+  <h5><a href="/about/">ABOUT ME</a></h5>
+  <div class="short-about">
+
+    
+    <img id="avatar_pic" src="/img/avatar/xd.jpg" alt="avatar_pic" style="box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);" />
+    
+
+    
+    <p>Nothing Can Hold Me Back</p>
+    
+
+    <!-- SNS Link -->
+    <ul class="list-inline">
+      
+
+      
+      <li>
+        <a target="_blank" href="https://github.com/chopperxd">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+    </ul>
+  </div>
+</section>
+
+        <hr>
+    
+        
+<!-- <h5>RECENT POSTS</h5> -->
+<h5><a href="/">RECENT POSTS</a></h5>
+<div class="widget">
+  <ul>
+    
+    <a href="../../2020/12/04/FeHelper%E5%AE%89%E8%A3%85/">
+      <li>FeHelper安装</li>
+    </a>
+    
+    <a href="../../2020/12/03/Always-On-my-Way/">
+      <li>Always On my Way</li>
+    </a>
+    
+    <a href="../../2020/12/02/React%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
+      <li>React学习笔记</li>
+    </a>
+    
+    <a href="../../2020/12/02/%E4%B8%87%E4%BA%8B%E5%BC%80%E5%A4%B4%E9%9A%BE/">
+      <li>万事开头难</li>
+    </a>
+    
+    <a href="../../2020/11/30/Hexo-Theme-LiveMyLife/">
+      <li>Hexo-Theme-LiveMyLife</li>
+    </a>
+    
   </ul>
 </div>
 
-<!-- css & js -->
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"> -->
-<script defer="defer" async="true" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
 
-        <!-- Sharing End -->
-        
         <hr>
-
-        <!-- comments start -->
-        <!-- 1. gitalk comment -->
-
-<!-- gitalk start -->
-<!-- Docs:https://github.com/gitalk/gitalk/blob/master/readme-cn.md -->
-
-<div id="gitalk-container"></div>
-
-<!-- <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.js"></script> -->
-<script src="/js/comment/gitalk.js"></script>
-
-<script>
-  var gitalk = new Gitalk({
-    clientID: '',
-    clientSecret: '',
-    repo: '',
-    owner: '',
-    admin: '',
-    id: 'Wed Dec 02 2020 16:51:05 GMT+0800', // Ensure uniqueness and length less than 50
-    distractionFreeMode: false, // Facebook-like distraction free mode
-    perPage: 10 ,
-    pagerDirection: 'last',
-    createIssueManually: false ,
-    language: 'zh-CN'
-  });
-  gitalk.render('gitalk-container');
-
-  var gtFolded = () => {
-    setTimeout(function() {
-      let markdownBody = document.getElementsByClassName("markdown-body");
-      let list = Array.from(markdownBody);
-      list.forEach(item => {
-        if (item.clientHeight > 250) {
-          item.classList.add('gt-comment-body-folded');
-          item.style.maxHeight = '250px';
-          item.title = 'Click to Expand';
-          item.onclick = function() {
-            item.classList.remove('gt-comment-body-folded');
-            item.style.maxHeight = '';
-            item.title = '';
-            item.onclick = null;
-          };
-        }
-      })
-    }, 800);
-  }
-</script>
-
-<!-- gitalk end -->
-
-
-
-<!-- 2. gitment comment -->
-
-
-
-<!-- 3. disqus comment -->
-
-
-        <!-- comments end -->
-        <hr>
-
-      </div>
-
-      <!-- Catalog: Tabe of Content -->
-      <!-- Table of Contents -->
-
     
-      <aside id="sidebar">
-        <div id="toc" class="toc-article">
-        <strong class="toc-title">Contents</strong>
-        
-          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#为什么是React"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">为什么是React</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#前期环境准备"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">前期环境准备</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#node安装"><span class="toc-nav-number">2.1.</span> <span class="toc-nav-text">node安装</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#cnpm安装"><span class="toc-nav-number">2.2.</span> <span class="toc-nav-text">cnpm安装</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#VScode编辑器安装"><span class="toc-nav-number">2.3.</span> <span class="toc-nav-text">VScode编辑器安装</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#开始第一个React项目"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">开始第一个React项目</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#通过安装脚手架创建项目"><span class="toc-nav-number">3.1.</span> <span class="toc-nav-text">通过安装脚手架创建项目</span></a></li></ol></li></ol>
-        
-        </div>
-      </aside>
-    
-
-
-      <!-- Sidebar Container -->
-      <div class="
-                col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1
-                sidebar-container">
-
-        <!-- Featured Tags -->
-        
-        <section>
-          <!-- no hr -->
-          <h5>
-            <a href="/tags/">FEATURED TAGS</a>
-          </h5>
-          <div class="tags">
-            
-            <a class="tag" href="/tags/#React" title="React">React</a>
-            
-          </div>
-        </section>
-        
-
         <!-- Friends Blog -->
-        
+
+<!-- <h5>FRIENDS</h5> -->
+<h5><a href="/">FRIENDS</a></h5>
+<ul class="list-inline">
+  
+  <li><a href="https://imfw.cn/l/220054592" target="_blank">楞丹</a></li>
+  
+</ul>
+
+
         <hr>
-        <h5>FRIENDS</h5>
-        <ul class="list-inline">
-
-          
-          <li>
-            <a href="https://imfw.cn/l/220054592" target="_blank">楞丹</a>
-          </li>
-          
-        </ul>
+    
         
-      </div>
+    <!-- <h5>ARCHIVES</h5> -->
+    <h5><a href="/archives/">ARCHIVES</a></h5>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2020/12/">十二月 2020</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2020/11/">十一月 2020</a><span class="archive-list-count">1</span></li></ul>
     </div>
+
+
+        <hr>
+    
+        <!-- Categories -->
+
+<!-- <h5>categories</h5> -->
+<h5><a href="/categories/">CATEGORIES</a></h5>
+<div class="widget">
+  <ul>
+    
+    <a href="/categories/#随笔">
+      <li>随笔</li>
+    </a>
+    
+    <a href="/categories/#开发工具">
+      <li>开发工具</li>
+    </a>
+    
+    <a href="/categories/#前端开发">
+      <li>前端开发</li>
+    </a>
+    
+    <a href="/categories/#Hexo-Theme-LiveMyLife">
+      <li>Hexo-Theme-LiveMyLife</li>
+    </a>
+    
+  </ul>
+</div>
+
+
+        <hr>
+    
+</div>
+
+    
   </div>
-</article>
-
-
-
-<!-- anchorjs start -->
-<!-- async load function -->
-<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
-<script type="text/javascript">
-  // async load function
-  function async (u, c) {
-    var d = document,
-      t = 'script',
-      o = d.createElement(t),
-      s = d.getElementsByTagName(t)[0];
-    o.src = u;
-    if (c) {
-      o.addEventListener('load', function(e) {
-        c(null, e);
-      }, false);
-    }
-    s.parentNode.insertBefore(o, s);
-  };
-</script>
-<script type="text/javascript">
-  //anchor-js, Doc:http://bryanbraun.github.io/anchorjs/
-  async ("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js", function() {
-    anchors.options = {
-      visible: 'hover',
-      placement: 'left',
-      // icon: 'ℬ'
-      icon: '❡'
-    };
-    anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
-  });
-</script>
-<style>
-  /* place left on bigger screen */
-  @media all and (min-width: 800px) {
-    .anchorjs-link {
-      position: absolute;
-      left: -0.75em;
-      font-size: 1.1em;
-      margin-top: -0.1em;
-    }
-  }
-</style>
-
-<!-- anchorjs end -->
-
+</div>
 
 
 	<!-- Footer (contains ThemeColor、viewer) -->

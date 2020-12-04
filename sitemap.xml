@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chopperxd.github.io/2020/12/04/FeHelper%E5%AE%89%E8%A3%85/</loc>
+    
+    <lastmod>2020-12-04</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://chopperxd.github.io/2020/12/03/Always-On-my-Way/</loc>
     
     <lastmod>2020-12-03</lastmod>
@@ -67,36 +74,43 @@
 
   <url>
     <loc>https://chopperxd.github.io/</loc>
-    <lastmod>2020-12-03</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>https://chopperxd.github.io/tags/FeHelper/</loc>
+    <lastmod>2020-12-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://chopperxd.github.io/tags/React/</loc>
-    <lastmod>2020-12-03</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://chopperxd.github.io/tags/Hexo/</loc>
-    <lastmod>2020-12-03</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://chopperxd.github.io/tags/github/</loc>
-    <lastmod>2020-12-03</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://chopperxd.github.io/tags/Hexo-Theme-LiveMyLife/</loc>
-    <lastmod>2020-12-03</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -105,21 +119,28 @@
   
   <url>
     <loc>https://chopperxd.github.io/categories/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2020-12-03</lastmod>
+    <lastmod>2020-12-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chopperxd.github.io/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://chopperxd.github.io/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/</loc>
-    <lastmod>2020-12-03</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://chopperxd.github.io/categories/Hexo-Theme-LiveMyLife/</loc>
-    <lastmod>2020-12-03</lastmod>
+    <lastmod>2020-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

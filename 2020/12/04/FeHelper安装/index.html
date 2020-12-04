@@ -138,10 +138,10 @@
   <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
 
   <!-- ga & ba script hoook -->
-  <link rel="canonical" href="https://chopperxd.github.io/2020/12/02/React学习笔记/">
+  <link rel="canonical" href="https://chopperxd.github.io/2020/12/04/FeHelper安装/">
   <title>
     
-    React学习笔记 - Nothing Can Hold Me Back
+    FeHelper安装 - Nothing Can Hold Me Back
     
   </title>
 <meta name="generator" content="Hexo 4.2.1"></head>
@@ -290,7 +290,7 @@
   <style type="text/css">
     header.intro-header {
        /*post*/
-        background-image: url('/img/header_img/react_bg.jpg');
+        background-image: url('/img/header_img/full_bg.jpg');
       
     }
 
@@ -315,14 +315,14 @@
           <div class="post-heading">
             <div class="tags">
               
-              <a class="tag" href="/tags/#React" title="React">React</a>
+              <a class="tag" href="/tags/#FeHelper" title="FeHelper">FeHelper</a>
               
             </div>
-            <h1>React学习笔记</h1>
-            <h2 class="subheading">learn the React</h2>
+            <h1>FeHelper安装</h1>
+            <h2 class="subheading">神奇的小工具</h2>
             <span class="meta">
               Posted by 九块腹肌的徐先生 on
-              2020-12-02
+              2020-12-04
             </span>
 
 
@@ -330,11 +330,11 @@
             <!-- WordCount start -->
             <div class="blank_box"></div>
             <span class="meta">
-              Estimated Reading Time <span class="post-count">2</span> Minutes
+              Estimated Reading Time <span class="post-count">1</span> Minutes
             </span>
             <div class="blank_box"></div>
             <span class="meta">
-              Words <span class="post-count">647</span> In Total
+              Words <span class="post-count">183</span> In Total
             </span>
             <div class="blank_box"></div>
             <!-- 不蒜子统计 start -->
@@ -395,49 +395,26 @@
       <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
 
         <blockquote>
+<p>程序员总是有着千奇百怪的宝藏值得学习和借鉴，这个前端插件很方便，集成了常用的测试，时间戳，JSON识别等一系列功能，主要适用于前端展示校验，接口测试等</p>
 </blockquote>
-<p> 面对互联网新型技术井喷式的增长，只有不断学习才能不被这个时代遗弃，在这里记录一下学习各个开发框架的心得体会。</p>
-<h2 id="为什么是React"><a href="#为什么是React" class="headerlink" title="为什么是React"></a>为什么是React</h2><p>现在主流的前端框架有angular、 vue、React。当然很多人都主推vue，因为它的脚手架灵活，语法更容易被接受，但是很多大厂都在用React。React是构建用户界面的JavaScript库，国外的Instagram就是用它实现的，2013年React开源。</p>
-<p>很多人都说React的JSX让人受不了，这几个框架我都没有接触过。但是目前我所维护的项目代码前端都是基于React实现的，为了后期可以自行修改程序，不得不学。</p>
-<h2 id="前期环境准备"><a href="#前期环境准备" class="headerlink" title="前期环境准备"></a>前期环境准备</h2><h3 id="node安装"><a href="#node安装" class="headerlink" title="node安装"></a>node安装</h3><p>这个东西就和你玩Java一样需要先装个JDK是一样的，根据自己的电脑环境去下载合适的版本，比较稳定的版本应该是v12，本人的操作系统环境是Windows7 64位，[node下载地址 →](<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">https://nodejs.org/en/download/</a></p>
-<p>在cmd里输入下面命令验证是否安装成功 </p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure>
-
-<p>在cmd里通过以下命令设置全局文件存储目录，因为我的E盘空间很大，所以这两个文件夹<code>node_global</code>和 <code>node_cache</code>没有放在node.js的安装路径下</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm config set prefix "E:\npmpackage\node_global" </span><br><span class="line">npm config set cache "E:\npmpackage\node_cache"</span><br></pre></td></tr></table></figure>
-<p><img src="node-v.png" alt="验证结果1"> </p>
-<p><img src="node-config.png" alt="验证结果2"> </p>
-<h3 id="cnpm安装"><a href="#cnpm安装" class="headerlink" title="cnpm安装"></a>cnpm安装</h3><p>使用淘宝的镜像获取前端node依赖要比npm快很多</p>
-<p>在cmd里通过以下命令安装cnpm，并制定下载镜像的源</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
-
-<h3 id="VScode编辑器安装"><a href="#VScode编辑器安装" class="headerlink" title="VScode编辑器安装"></a>VScode编辑器安装</h3><p>前端的开发使用这个编辑器较多，这个编辑器很好用可以替代Notepad++或者 UltraEdit这样的工具<a href="https://code.visualstudio.com/Download" target="_blank" rel="noopener">vscode下载 →</a></p>
-<h2 id="开始第一个React项目"><a href="#开始第一个React项目" class="headerlink" title="开始第一个React项目"></a>开始第一个React项目</h2><h3 id="通过安装脚手架创建项目"><a href="#通过安装脚手架创建项目" class="headerlink" title="通过安装脚手架创建项目"></a>通过安装脚手架创建项目</h3><p>这里可以使用create-react-app来创建一个项目 <a href="https://react.docschina.org/docs/create-a-new-react-app.html" target="_blank" rel="noopener">官方文档 →</a></p>
-<p>在本地创建一个文件夹作为你这个项目的工作空间，通过vscode 中的终端命令行进行编辑，敲入以下命令实现项目的创建</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g create-react-app #安装脚手架</span><br><span class="line">create-react-app create-react-app 01helloworld #创建第一个项目</span><br></pre></td></tr></table></figure>
-
-
-<p><img src="vscode01.png" alt="验证结果3"></p>
-<p><img src="vscode02.png" alt="验证结果4"></p>
-<p>经过漫长的等待可以看到创建的项目树生成</p>
-<p><img src="vscode03.png" alt="验证结果5"></p>
-<p>最后我们启动项目，开始玩转react,在终端中输入以下命令</p>
-<pre><code class="shell">yarn start</code></pre>
-<p><img src="vscode04.png" alt="验证结果6"></p>
-<p>在浏览器里就可以看到我们的页面了，react支持实时编译，即在项目不中断的情况下实时修改看到效果。</p>
+<h2 id="FeHelper是一个Chrome插件"><a href="#FeHelper是一个Chrome插件" class="headerlink" title="FeHelper是一个Chrome插件"></a>FeHelper是一个Chrome插件</h2><p><a href="https://chrome.zzzmh.cn/info?token=pkgccpejnmalmdinmhkkfafefagiiiad" target="_blank" rel="noopener">FeHelper下载地址</a> </p>
+<h2 id="安装步骤"><a href="#安装步骤" class="headerlink" title="安装步骤"></a>安装步骤</h2><h3 id="打开浏览器选择扩展"><a href="#打开浏览器选择扩展" class="headerlink" title="打开浏览器选择扩展"></a>打开浏览器选择扩展</h3><p>1.在Chrome浏览器里输入 <code>chrome://extensions/</code> 进入扩展中心</p>
+<p>2.勾选开发者模式</p>
+<p><img src="step1.png" alt="step1"></p>
+<h3 id="解压下载的zip文件"><a href="#解压下载的zip文件" class="headerlink" title="解压下载的zip文件"></a>解压下载的zip文件</h3><p>拖动crx文件到扩展中心页面直接安装</p>
+<p><img src="step2.png" alt="step2"></p>
+<h3 id="安装我们所需要的功能"><a href="#安装我们所需要的功能" class="headerlink" title="安装我们所需要的功能"></a>安装我们所需要的功能</h3><p><img src="step3.png" alt="step3"></p>
+<h3 id="点击插件使用我们所需要的功能"><a href="#点击插件使用我们所需要的功能" class="headerlink" title="点击插件使用我们所需要的功能"></a>点击插件使用我们所需要的功能</h3><p><img src="step4.png" alt="step4"></p>
+<p>这些功能非常实用，在离线状态下也是可以使用的哦</p>
 
 
         <hr>
         <!-- Pager -->
         <ul class="pager">
           
-          <li class="previous">
-            <a href="/2020/12/03/Always-On-my-Way/" data-toggle="tooltip" data-placement="top" title="Always On my Way">&larr; Previous Post</a>
-          </li>
-          
           
           <li class="next">
-            <a href="/2020/12/02/万事开头难/" data-toggle="tooltip" data-placement="top" title="万事开头难">Next Post &rarr;</a>
+            <a href="/2020/12/03/Always-On-my-Way/" data-toggle="tooltip" data-placement="top" title="Always On my Way">Next Post &rarr;</a>
           </li>
           
         </ul>
@@ -480,7 +457,7 @@
       </a>
     </li>
     <li class="social-share-li">
-      <a target="_blank" class="social-share-icon" href="mailto:?subject=React学习笔记&body=Hi,I found this website and thought you might like it https://chopperxd.github.io/2020/12/02/React学习笔记/">
+      <a target="_blank" class="social-share-icon" href="mailto:?subject=FeHelper安装&body=Hi,I found this website and thought you might like it https://chopperxd.github.io/2020/12/04/FeHelper安装/">
         <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>
       </a>
     </li>
@@ -513,7 +490,7 @@
     repo: '',
     owner: '',
     admin: '',
-    id: 'Wed Dec 02 2020 16:51:05 GMT+0800', // Ensure uniqueness and length less than 50
+    id: 'Fri Dec 04 2020 14:55:50 GMT+0800', // Ensure uniqueness and length less than 50
     distractionFreeMode: false, // Facebook-like distraction free mode
     perPage: 10 ,
     pagerDirection: 'last',
@@ -567,7 +544,7 @@
         <div id="toc" class="toc-article">
         <strong class="toc-title">Contents</strong>
         
-          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#为什么是React"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">为什么是React</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#前期环境准备"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">前期环境准备</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#node安装"><span class="toc-nav-number">2.1.</span> <span class="toc-nav-text">node安装</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#cnpm安装"><span class="toc-nav-number">2.2.</span> <span class="toc-nav-text">cnpm安装</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#VScode编辑器安装"><span class="toc-nav-number">2.3.</span> <span class="toc-nav-text">VScode编辑器安装</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#开始第一个React项目"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">开始第一个React项目</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#通过安装脚手架创建项目"><span class="toc-nav-number">3.1.</span> <span class="toc-nav-text">通过安装脚手架创建项目</span></a></li></ol></li></ol>
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#FeHelper是一个Chrome插件"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">FeHelper是一个Chrome插件</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#安装步骤"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">安装步骤</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#打开浏览器选择扩展"><span class="toc-nav-number">2.1.</span> <span class="toc-nav-text">打开浏览器选择扩展</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#解压下载的zip文件"><span class="toc-nav-number">2.2.</span> <span class="toc-nav-text">解压下载的zip文件</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#安装我们所需要的功能"><span class="toc-nav-number">2.3.</span> <span class="toc-nav-text">安装我们所需要的功能</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#点击插件使用我们所需要的功能"><span class="toc-nav-number">2.4.</span> <span class="toc-nav-text">点击插件使用我们所需要的功能</span></a></li></ol></li></ol>
         
         </div>
       </aside>
@@ -589,7 +566,7 @@
           </h5>
           <div class="tags">
             
-            <a class="tag" href="/tags/#React" title="React">React</a>
+            <a class="tag" href="/tags/#FeHelper" title="FeHelper">FeHelper</a>
             
           </div>
         </section>
