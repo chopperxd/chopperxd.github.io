@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chopperxd.github.io/2020/12/07/JSX%E5%AD%A6%E4%B9%A0/</loc>
+    
+    <lastmod>2020-12-09</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://chopperxd.github.io/2020/12/07/mysql%E9%94%99%E8%AF%AF%E4%BB%A3%E7%A0%812003/</loc>
     
     <lastmod>2020-12-07</lastmod>
@@ -88,7 +95,7 @@
 
   <url>
     <loc>https://chopperxd.github.io/</loc>
-    <lastmod>2020-12-07</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -96,42 +103,42 @@
   
   <url>
     <loc>https://chopperxd.github.io/tags/FeHelper/</loc>
-    <lastmod>2020-12-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chopperxd.github.io/tags/React/</loc>
-    <lastmod>2020-12-07</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://chopperxd.github.io/tags/MYSQL/</loc>
-    <lastmod>2020-12-07</lastmod>
+    <lastmod>2020-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chopperxd.github.io/tags/React/</loc>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://chopperxd.github.io/tags/Hexo/</loc>
-    <lastmod>2020-12-07</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://chopperxd.github.io/tags/github/</loc>
-    <lastmod>2020-12-07</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://chopperxd.github.io/tags/Hexo-Theme-LiveMyLife/</loc>
-    <lastmod>2020-12-07</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -140,42 +147,42 @@
   
   <url>
     <loc>https://chopperxd.github.io/categories/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2020-12-07</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://chopperxd.github.io/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2020-12-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chopperxd.github.io/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/</loc>
-    <lastmod>2020-12-07</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://chopperxd.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
-    <lastmod>2020-12-07</lastmod>
+    <lastmod>2020-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chopperxd.github.io/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/</loc>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://chopperxd.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/%E8%BF%90%E7%BB%B4/</loc>
-    <lastmod>2020-12-07</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://chopperxd.github.io/categories/Hexo-Theme-LiveMyLife/</loc>
-    <lastmod>2020-12-07</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
